@@ -3,7 +3,7 @@ name: qiguijiao1876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0 * * *'
+    - cron: '26 * * * *'
 jobs:  # 16554
   build:
     runs-on: ubuntu-latest
